@@ -1,3 +1,7 @@
+# 清华大学计算语言学(孙茂松老师)作业: 语法分析
+# Top-down Chart算法（Earley算法）（参考Allen 1995 Natural Language Understanding 3.6节）
+# by Mimicry Hu
+
 class Arc:
     def __init__(self, rule, start, end, constituents):
         self.rule = rule
